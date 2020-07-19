@@ -32,5 +32,5 @@ python start_server.py
 ##### Step4 
 ```
 http://localhost:8000/docs
-Returns class with max prob.
+Returns a class with max prob.
 ```
