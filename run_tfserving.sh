@@ -1,0 +1,1 @@
+tensorflow_model_server --model_config_file=$PWD/tensorflow_serving_model_config_file --port=9000
