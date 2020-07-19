@@ -20,7 +20,7 @@ async def predict(image: UploadFile = File(...)):
     img_read = image.file._file.read()
     img = cv2.imdecode(np.fromstring(img_read, np.uint8), cv2.COLOR_RGB2BGR)
     pre_img = yolohelper.preprocess(img)
-    predict_img = yolohelper.predict(pre_img)
+    predict_img = yolohelper.predict(pre_img,threshold=0.6)
     return predict_img
 
 

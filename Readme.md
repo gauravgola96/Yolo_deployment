@@ -4,8 +4,11 @@ You can change your configuration from config.py file like labels, input name , 
 ##### Setup Darkflow
 
 ```
-cd ./darkflow/
+Not in the  current repo
+git clone https://github.com/thtrieu/darkflow.git
+cd darkflow/
 python3 setup.py build_ext --inplace
+pip install -e .
 pip install .
 ```
  
