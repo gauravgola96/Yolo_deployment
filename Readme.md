@@ -39,7 +39,8 @@ http://localhost:8000/docs
 Returns a class with max prob.
 ```
 
-####BLOG : Deploying Yolo on Tensorflow Serving
+#### BLOG : Deploying Yolo on Tensorflow Serving
+
 [ Part 1](https://medium.com/@gauravgola/deploying-yolo-on-tensorflow-serving-part-1-4586f97f0dd9)
 
 [ Part 2](https://medium.com/@gauravgola/deploying-yolo-on-tensorflow-serving-part-2-4ecd5edbe776)
