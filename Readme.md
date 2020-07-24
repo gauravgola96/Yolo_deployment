@@ -16,7 +16,7 @@ pip install .
 ##### Step 1:
 ```
 cd Yolo_deployment/
-Change you wts/model config file path in config.py and run
+Change your wts/model config file path in config.py and run
 python export_tfserving.py
 ```  
  
